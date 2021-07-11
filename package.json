@@ -1,0 +1,30 @@
+{
+    "name": "lodash-tts",
+    "title": "TTS Design's lodash extensions",
+    "version": "1.0.0",
+    "description": "TTS Design's lodash extensions",
+    "author": {
+        "name": "TTS Design",
+        "email": "ttsdesign@gmail.com"
+    },
+    "deprecated": false,
+    "keywords": [
+        "TTS Design",
+        "lodash",
+        "Core"
+    ],
+    "license": "MIT",
+    "main": "src/",
+    "scripts": {
+        "build": "grunt make",
+        "prepare": "npm run-script build"
+    },
+    "dependencies": {
+        "lodash": "^4.17.20"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.4",
+        "strip-comments": "^2.0.1",
+        "uglify-es": "^3.3.9"
+    }
+}

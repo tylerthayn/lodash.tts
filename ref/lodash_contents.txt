@@ -1,0 +1,139 @@
+
+Array
+_.chunk                       _.intersectionBy              _.tail                        
+_.compact                     _.intersectionWith            _.take                        
+_.concat                      _.join                        _.takeRight                   
+_.difference                  _.last                        _.takeRightWhile              
+_.differenceBy                _.lastIndexOf                 _.takeWhile                   
+_.differenceWith              _.nth                         _.union                       
+_.drop                        _.pull                        _.unionBy                     
+_.dropRight                   _.pullAll                     _.unionWith                   
+_.dropRightWhile              _.pullAllBy                   _.uniq                        
+_.dropWhile                   _.pullAllWith                 _.uniqBy                      
+_.fill                        _.pullAt                      _.uniqWith                    
+_.findIndex                   _.remove                      _.unzip                       
+_.findLastIndex               _.reverse                     _.unzipWith                   
+_.first -> head               _.slice                       _.without                     
+_.flatten                     _.sortedIndex                 _.xor                         
+_.flattenDeep                 _.sortedIndexBy               _.xorBy                       
+_.flattenDepth                _.sortedIndexOf               _.xorWith                     
+_.fromPairs                   _.sortedLastIndex             _.zip                         
+_.head                        _.sortedLastIndexBy           _.zipObject                   
+_.indexOf                     _.sortedLastIndexOf           _.zipObjectDeep               
+_.initial                     _.sortedUniq                  _.zipWith                     
+_.intersection                _.sortedUniqBy                                              
+
+Collection
+_.countBy                     _.forEach                     _.reduceRight                 
+_.each -> forEach             _.forEachRight                _.reject                      
+_.eachRight -> forEachRight   _.groupBy                     _.sample                      
+_.every                       _.includes                    _.sampleSize                  
+_.filter                      _.invokeMap                   _.shuffle                     
+_.find                        _.keyBy                       _.size                        
+_.findLast                    _.map                         _.some                        
+_.flatMap                     _.orderBy                     _.sortBy                      
+_.flatMapDeep                 _.partition                                                 
+_.flatMapDepth                _.reduce                                                    
+
+Date
+_.now                                                                                     
+
+Function
+_.after                       _.defer                       _.partialRight                
+_.ary                         _.delay                       _.rearg                       
+_.before                      _.flip                        _.rest                        
+_.bind                        _.memoize                     _.spread                      
+_.bindKey                     _.negate                      _.throttle                    
+_.curry                       _.once                        _.unary                       
+_.curryRight                  _.overArgs                    _.wrap                        
+_.debounce                    _.partial                                                   
+
+Lang
+_.castArray                   _.isEqual                     _.isSafeInteger               
+_.clone                       _.isEqualWith                 _.isSet                       
+_.cloneDeep                   _.isError                     _.isString                    
+_.cloneDeepWith               _.isFinite                    _.isSymbol                    
+_.cloneWith                   _.isFunction                  _.isTypedArray                
+_.conformsTo                  _.isInteger                   _.isUndefined                 
+_.eq                          _.isLength                    _.isWeakMap                   
+_.gt                          _.isMap                       _.isWeakSet                   
+_.gte                         _.isMatch                     _.lt                          
+_.isArguments                 _.isMatchWith                 _.lte                         
+_.isArray                     _.isNaN                       _.toArray                     
+_.isArrayBuffer               _.isNative                    _.toFinite                    
+_.isArrayLike                 _.isNil                       _.toInteger                   
+_.isArrayLikeObject           _.isNull                      _.toLength                    
+_.isBoolean                   _.isNumber                    _.toNumber                    
+_.isBuffer                    _.isObject                    _.toPlainObject               
+_.isDate                      _.isObjectLike                _.toSafeInteger               
+_.isElement                   _.isPlainObject               _.toString                    
+_.isEmpty                     _.isRegExp                                                  
+
+Math
+_.add                         _.maxBy                       _.multiply                    
+_.ceil                        _.mean                        _.round                       
+_.divide                      _.meanBy                      _.subtract                    
+_.floor                       _.min                         _.sum                         
+_.max                         _.minBy                       _.sumBy                       
+
+Number
+_.clamp                       _.inRange                     _.random                      
+
+Object
+_.assign                      _.forOwn                      _.omit                        
+_.assignIn                    _.forOwnRight                 _.omitBy                      
+_.assignInWith                _.functions                   _.pick                        
+_.assignWith                  _.functionsIn                 _.pickBy                      
+_.at                          _.get                         _.result                      
+_.create                      _.has                         _.set                         
+_.defaults                    _.hasIn                       _.setWith                     
+_.defaultsDeep                _.invert                      _.toPairs                     
+_.entries -> toPairs          _.invertBy                    _.toPairsIn                   
+_.entriesIn -> toPairsIn      _.invoke                      _.transform                   
+_.extend -> assignIn          _.keys                        _.unset                       
+_.extendWith -> assignInWith  _.keysIn                      _.update                      
+_.findKey                     _.mapKeys                     _.updateWith                  
+_.findLastKey                 _.mapValues                   _.values                      
+_.forIn                       _.merge                       _.valuesIn                    
+_.forInRight                  _.mergeWith                                                 
+
+Seq
+_                             _.prototype.at                _.prototype.reverse           
+_.chain                       _.prototype.chain             _.prototype.toJSON -> value   
+_.tap                         _.prototype.commit            _.prototype.value             
+_.thru                        _.prototype.next              _.prototype.valueOf -> value  
+_.prototype[Symbol.iterator]  _.prototype.plant                                           
+
+String
+_.camelCase                   _.padEnd                      _.toLower                     
+_.capitalize                  _.padStart                    _.toUpper                     
+_.deburr                      _.parseInt                    _.trim                        
+_.endsWith                    _.repeat                      _.trimEnd                     
+_.escape                      _.replace                     _.trimStart                   
+_.escapeRegExp                _.snakeCase                   _.truncate                    
+_.kebabCase                   _.split                       _.unescape                    
+_.lowerCase                   _.startCase                   _.upperCase                   
+_.lowerFirst                  _.startsWith                  _.upperFirst                  
+_.pad                         _.template                    _.words                       
+
+Util
+_.attempt                     _.method                      _.rangeRight                  
+_.bindAll                     _.methodOf                    _.runInContext                
+_.cond                        _.mixin                       _.stubArray                   
+_.conforms                    _.noConflict                  _.stubFalse                   
+_.constant                    _.noop                        _.stubObject                  
+_.defaultTo                   _.nthArg                      _.stubString                  
+_.flow                        _.over                        _.stubTrue                    
+_.flowRight                   _.overEvery                   _.times                       
+_.identity                    _.overSome                    _.toPath                      
+_.iteratee                    _.property                    _.uniqueId                    
+_.matches                     _.propertyOf                                                
+_.matchesProperty             _.range                                                     
+
+Properties
+_.VERSION                     _.templateSettings.evaluate   _.templateSettings.variable   
+_.templateSettings            _.templateSettings.imports                                  
+_.templateSettings.escape     _.templateSettings.interpolate                              
+
+Methods
+_.templateSettings.imports._                                                              
