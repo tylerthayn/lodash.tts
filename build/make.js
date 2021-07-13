@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 		})
 
 		grunt.file.write(Path.resolve(options.dir, options.file), src)
-		//grunt.file.write(Path.resolve(options.dir, options.min), UglifyJS.minify(src, minifyOptions).code)
+		grunt.file.write(Path.resolve(options.dir, options.min), UglifyJS.minify(src, minifyOptions).code)
 
 	})
 }

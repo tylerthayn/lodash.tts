@@ -13,21 +13,43 @@
 
 	require('./noConflict')
 	require('./Define')
+	require('./Type')
+	require('./global')
 
 	/* Array */
+	require('./Delete')
+	require('./DeleteAt')
 	require('./First')
 	require('./Head')
 	require('./Last')
+	require('./Shuffle')
 	require('./Tail')
 
 	/* Object */
-	require('./Options')
-	require('./Type')
+	require('./Each')
+	require('./Trim')
 
 	/* Functional */
 	require('./Hook')
+	require('./Noop')
 	require('./Passthru')
 	require('./Pipe')
+
+	/* String */
+	require('./AsAscii')
+	require('./AsBase64')
+	require('./IsBase64')
+	require('./IsJson')
+	require('./Match')
+
+	/* Util */
+	require('./Debug')
+	require('./Hash')
+	require('./log')
+	require('./logj')
+
+	require('./Options')
+
 
 	return _
 }))

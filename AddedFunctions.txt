@@ -1,23 +1,37 @@
 
+Options
+*UUID
+
 Array
-	Delete
-	DeleteAt
+		Delete
+		DeleteAt
 	First
 	Head
 	Last
+		Shuffle
 	Tail
-	
-Collection
-Date
+		Trim: remove all undefined values
+
 Function
-Lang
-Math
-Number
+	Hook
+	*Noop
+	Passthru
+	Pipe
 Object
-	Delete
-	DeleteAt
-Seq
+	Define
+		Delete
+		DeleteAt
+		Each
+		Hash
+		Trim: remove all undefined values, deep?
+	Type
 String
+		AsAscii
+		AsBase64
+		AsJson
+		Hash
+		IsBase64
+		IsJson
 Util
-Properties
-Methods
+		Log
+		Logj
