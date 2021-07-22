@@ -14,10 +14,9 @@
         "Core"
     ],
     "license": "MIT",
-    "main": "src/",
+    "main": "dist/lodash.tts.js",
     "scripts": {
-        "build": "grunt make",
-        "prepare": "npm run-script build"
+        "build": "grunt make"
     },
     "dependencies": {
         "lodash": "^4.17.20"
